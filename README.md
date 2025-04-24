@@ -4,4 +4,6 @@ This is a portfolio demo project I've built with Next JS and Express JS API. It'
 It has a login system, you can make accounts, save and add movies, remove them or edit them.
 It uses MongoDB and a couple of other libraries for uploads and processing.
 
+You can view a video of this demo project here : 
+https://drive.google.com/file/d/1mQlQdkmq3g7yh1BmFHtNiXbxh5inSiwR/view?usp=sharing
 
