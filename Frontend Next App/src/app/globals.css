@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Thin */
+@font-face {
+    font-family: 'IranyekanX';
+    src: url("./public/fonts/IRANYekanXFaNum-Thin.woff2") format('Woff2');
+    font-style: normal;
+    font-weight: 100;
+}
+
+/* Ultra light */
+@font-face {
+    font-family: 'IranyekanX';
+    src: url("./public/fonts/IRANYekanXFaNum-UltraLight.woff2") format('Woff2');
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* Light */
+@font-face {
+    font-family: 'IranyekanX';
+    src: url("./public/fonts/IRANYekanXFaNum-Light.woff2") format('Woff2');
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* regular */
+@font-face {
+    font-family: 'IranyekanX';
+    src: url("./public/fonts/IRANYekanXFaNum-Regular.woff2") format('Woff2');
+    font-style: normal;    
+    font-weight: 400;
+}
+
+/* Medium */
+@font-face {
+    font-family: 'IranyekanX';
+    src: url("./public/fonts/IRANYekanXFaNum-Medium.woff2") format('Woff2');
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Semi Bold */
+@font-face {
+    font-family: 'IranyekanX';
+    src: url("./public/fonts/IRANYekanXFaNum-DemiBold.woff2") format('Woff2');
+    font-style: normal;    
+    font-weight: 600;
+}
+
+/* Bold */
+@font-face {
+    font-family: 'IranyekanX';
+    src: url("./public/fonts/IRANYekanXFaNum-Bold.woff2") format('Woff2');
+    font-style: normal;    
+    font-weight: 700;
+}
+
+/* Extra Bold */
+@font-face {
+    font-family: 'IranyekanX';
+    src: url("./public/fonts/IRANYekanXFaNum-ExtraBold.woff2") format('Woff2');
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* Black */
+@font-face {
+    font-family: 'IranyekanX';
+    src: url("./public/fonts/IRANYekanXFaNum-Black.woff2") format('Woff2');
+    font-style: normal;
+    font-weight: 900;
+}
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: IranyekanX;
+    text-align: right;
+    font-weight: 400;
+    color: white;
+}
+
+body{
+
+    min-height: 100vh;
+    background-color: #111827;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-pagination-bullet {
+    background: red !important;
+  }
